@@ -1,0 +1,187 @@
+
+/* Header */
+header {
+    height: 64px;
+    display: inline;
+}
+
+.desktop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 32px;
+    padding-left: 24px;
+    text-align: start;
+}
+
+
+li {
+    display: inline;
+}
+
+/* Banner */
+/* */
+
+.landing {
+    max-width: 100%;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.banner{
+    display: inline;
+}
+
+.banner div{
+    max-width: 30%;
+    position: relative;
+    float: right;
+    top: 100px;
+    right: 24px;
+
+}
+
+.banner img{
+    max-width: 60%;
+    padding: 32px 24px 32px 24px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    display: block;
+    width: 100%;
+}
+
+
+
+
+/* Information */
+
+
+.info {
+    max-width: 100%;
+    display: flex
+}
+
+.info .main{
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px 32px 24px;
+}
+
+
+.agenda {
+    max-width: 40%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.photo img{
+    max-width: 50%;
+}
+
+.item1{
+
+}
+
+/* Course */
+
+#course-sec {
+    max-width: 100%;
+    background-color: lightgrey;
+}
+
+.item2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    padding: 32px 72px 32px 72px;
+
+}
+
+.course{
+    background: white;
+    max-width: 25%;
+    margin-bottom: 32px;
+    margin-left: 32px;
+}
+
+.course img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Exhibit */
+
+.exhibit {
+    max-width: 100%;
+}
+
+.thesis {
+    text-align: center;
+    display: inline;
+}
+
+.box {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+,urban {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px 24px 24px;
+}
+
+.urban
+h2,
+h3{
+
+}
+
+video {
+    max-width: 60%;
+}
+
+
+.container{
+    max-width: 40%;
+    
+}
+
+.item3 {
+    max-width: 65%;
+    display: flex
+}
+
+item3 img{
+    max-width:35% ;
+}
+
