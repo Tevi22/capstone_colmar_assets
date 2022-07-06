@@ -1,24 +1,48 @@
-
 /* Header */
 header {
     height: 64px;
-    display: inline;
-}
-
-.desktop{
+    width: auto;
     display: flex;
     justify-content: space-between;
 }
 
+.desktop {
+    display: flex;
+}
+
 .logo {
-    height: 32px;
+    display: flex;
+    justify-content: flex-start;
+    min-height: 32px;
+    
+}
+
+.school {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+}
+
+.school2 {
+    color: gray;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
     padding-left: 24px;
-    text-align: start;
+
 }
 
 
 li {
     display: inline;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
 }
 
 /* Banner */
@@ -32,11 +56,11 @@ li {
     justify-content: flex-start;
 }
 
-.banner{
+.banner {
     display: inline;
 }
 
-.banner div{
+.banner div {
     max-width: 30%;
     position: relative;
     float: right;
@@ -45,12 +69,12 @@ li {
 
 }
 
-.banner img{
+.banner img {
     max-width: 60%;
     padding: 32px 24px 32px 24px;
 }
 
-button{
+button {
     background-color: black;
     color: white;
     display: block;
@@ -68,7 +92,7 @@ button{
     display: flex
 }
 
-.info .main{
+.info .main {
     max-width: 60%;
     display: flex;
     flex-direction: column;
@@ -82,22 +106,20 @@ button{
     padding-bottom: 32px;
     display: flex;
     flex-direction: column;
-    
+
 }
 
-.content{
+.content {
     max-width: 100%;
     display: flex;
     flex-direction: row;
 }
 
-.photo img{
+.photo img {
     max-width: 50%;
 }
 
-.item1{
-
-}
+.item1 {}
 
 /* Course */
 
@@ -124,14 +146,14 @@ button{
 
 }
 
-.course{
+.course {
     background: white;
     max-width: 25%;
     margin-bottom: 32px;
     margin-left: 32px;
 }
 
-.course img{
+.course img {
     max-width: 100%;
     height: auto;
 }
@@ -153,27 +175,25 @@ button{
     flex-direction: row;
 }
 
-,urban {
+,
+urban {
     max-width: 60%;
     display: flex;
     flex-direction: column;
     padding: 32px 24px 24px 24px;
 }
 
-.urban
-h2,
-h3{
-
-}
+.urban h2,
+h3 {}
 
 video {
     max-width: 60%;
 }
 
 
-.container{
+.container {
     max-width: 40%;
-    
+
 }
 
 .item3 {
@@ -181,7 +201,6 @@ video {
     display: flex
 }
 
-item3 img{
-    max-width:35% ;
+item3 img {
+    max-width: 35%;
 }
-
